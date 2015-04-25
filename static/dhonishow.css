@@ -1,0 +1,115 @@
+/* general */
+.dhonishow {
+	overflow: hidden;
+	font-family: "MS Trebuchet", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+
+.dhonishow * {
+	padding:  0;
+	margin: 0;
+	border:  none;
+	list-style: none;
+}
+
+.dhonishow-image {
+	overflow: hidden;
+	text-align: left;
+	background: #FFFFFF;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 202px;
+	height: 230px;
+}
+
+.dhonishow-image li {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.dhonishow-navi {  
+	margin-bottom: 2px;
+	color: #000000;
+	overflow: hidden;
+	padding: 5px 0 5px 5px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.dhonishow-picture-alt {
+	font-weight: bold;
+	text-align: left;
+	float: left;
+	font-size: 11px;
+	line-height: 16px;
+}
+
+.dhonishow-navi .dhonishow-next-picture,
+.dhonishow-navi .dhonishow-previous-picture {
+	text-indent: -999px;
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin: 0;
+	cursor:  pointer;
+	-moz-outline: none;
+}
+
+.dhonishow-navi .dhonishow-next-picture {
+	margin-right: 15px;
+	background: url(../images/slideshow/next.gif) no-repeat;
+}
+
+.dhonishow-previous-picture {
+	background: url(../images/slideshow/previous.gif) no-repeat;	
+}
+
+.dhonishow-next-picture:hover {
+	background: url(../images/slideshow/next_hover.gif) no-repeat;
+}
+
+.dhonishow-previous-picture:hover {
+	background: url(../images/slideshow/previous_hover.gif) no-repeat;	
+}
+
+.dhonishow-navi .paging {
+	float: right;
+	font-size: 22px;
+	margin: 0 10px;
+	line-height:  20px;
+}
+
+/* interior page style */
+#interior-wide-text-cont .dhonishow {
+	width: 550px;
+}
+
+#interior-wide-text-cont .dhonishow-image {
+	width: 550px;
+	height: 400px;
+}
+
+#interior-wide-text-cont .dhonishow-navi {
+	width: 520px;
+}
+                  
+/* home page slideshow style */
+div#home-image.dhonishow {
+	width: 980px;
+}
+
+div#home-image .dhonishow-image {
+	width: 980px;
+	height: 538px;
+}
+
+div#home-image .dhonishow-image li img {
+	float:right;
+}
+
+div#home-image .dhonishow-navi {
+	width: 950px;
+}
